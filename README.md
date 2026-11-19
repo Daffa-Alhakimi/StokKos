@@ -90,9 +90,3 @@ php artisan test --filter=BahanMakananTest
 | Struktur tabel | `database/migrations/2026_11_12_000001_create_bahan_makanan_table.php` |
 | Halaman daftar | `resources/views/bahan_makanan/index.blade.php` |
 | Form tambah dan ubah | `resources/views/bahan_makanan/create.blade.php`, `edit.blade.php`, `_form.blade.php` |
-
-## Catatan
-
-- `tanggal_kedaluwarsa` boleh dikosongkan sesuai batasan pada proposal.
-- Jumlah stok menerima angka desimal dan tidak boleh kurang dari nol.
-- Aplikasi dibuat untuk penggunaan lokal/individu. Fitur autentikasi, transaksi penjualan, dan pemesanan tidak termasuk ruang lingkup.
