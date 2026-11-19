@@ -1,4 +1,4 @@
-# StokKos - Source Code Laravel 12
+# StokKos
 
 StokKos adalah aplikasi web sederhana untuk mencatat persediaan bahan makanan pribadi anak kos. Fitur yang tersedia mengikuti proposal: melihat daftar stok, menambah data, mengubah data, menghapus data, dan mencatat tanggal kedaluwarsa secara opsional.
 
@@ -96,4 +96,3 @@ php artisan test --filter=BahanMakananTest
 - `tanggal_kedaluwarsa` boleh dikosongkan sesuai batasan pada proposal.
 - Jumlah stok menerima angka desimal dan tidak boleh kurang dari nol.
 - Aplikasi dibuat untuk penggunaan lokal/individu. Fitur autentikasi, transaksi penjualan, dan pemesanan tidak termasuk ruang lingkup.
-- Screenshot di laporan adalah pratinjau antarmuka dengan data contoh. Setelah aplikasi dijalankan, ambil screenshot dari browser sendiri untuk mengganti pratinjau tersebut sebagai bukti implementasi aktual.
