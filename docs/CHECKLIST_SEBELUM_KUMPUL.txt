@@ -1,0 +1,21 @@
+CHECKLIST FINALISASI LAPORAN DAN PROJECT STOKKOS
+
+1. Ganti placeholder [KELAS] pada cover.
+2. Isi nama dosen pengampu dan nama/NIM asisten praktikum.
+3. Isi nama mahasiswa, NIM, dan inisial.
+4. Ganti semua [Inisial] pada laporan (judul fitur, kolom PJ, dan caption gambar).
+5. Buat database MySQL bernama stokkos.
+6. Salin source code ke project Laravel 12, atur file .env, lalu jalankan:
+   php artisan key:generate
+   php artisan migrate --seed
+   php artisan serve
+7. Buka http://127.0.0.1:8000 dan coba tambah, ubah, dan hapus bahan makanan.
+8. Ganti pratinjau gambar pada BAB II dengan screenshot aplikasi yang benar-benar berjalan.
+9. Jalankan pengujian: php artisan test --filter=BahanMakananTest.
+10. Buat repository GitHub dan isi tautannya pada bagian Lampiran.
+11. Isi URL deployment jika aplikasi sudah dipublikasikan. Jika tidak diwajibkan dosen, tanyakan apakah boleh menuliskan belum di-deploy.
+
+CATATAN:
+- File docs/dashboard_preview.png dan docs/form_preview.png adalah pratinjau antarmuka, bukan bukti bahwa Laravel telah dijalankan pada komputer mahasiswa.
+- Fitur aplikasi sengaja dibatasi pada daftar stok, tambah, edit, hapus, dan tanggal kedaluwarsa opsional agar sesuai proposal.
+- Aplikasi tidak memiliki login/register karena proposal menetapkan penggunaan pribadi/lokal.
